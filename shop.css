@@ -344,9 +344,9 @@ img {
 /* responsive design */
 @media screen and (max-width: 430px) {
   body {
-    width:100%;
+    width: 100%;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .red-b {
     display: flex;
@@ -355,7 +355,7 @@ img {
     width: 100%;
     align-items: center;
     justify-content: flex-start;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .green-b {
     flex-direction: column;
