@@ -362,11 +362,13 @@ img {
 @media (max-width <=600px) {
   body {
     overflow-x: hidden;
+    width: 100%;
   }
   .red-b {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 2em;
   }
   .top-hover {
     width: 100%;
