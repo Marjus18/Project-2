@@ -81,20 +81,20 @@ body {
 }
 /* utility classes */
 .red-b {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .green-b {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .yellow-b {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 
 .d-flex {
   display: flex;
 }
 .black-b {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .column {
   flex-direction: column;
@@ -287,7 +287,7 @@ img {
   text-decoration: none;
 }
 .lg-blue-b {
-  border: 2px solid rgb(31, 123, 146);
+  /* border: 2px solid rgb(31, 123, 146); */
 }
 .my-cont {
   background-image: url(./Assets/images/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction.webp);
@@ -359,7 +359,15 @@ img {
   background-color: black;
 }
 /* responsive design */
-@media (max-width: 600px) {
+@media (max-width <=600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .red-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .top-hover {
     width: 100%;
     display: flex;
@@ -368,5 +376,7 @@ img {
     display: flex;
     flex-direction: row;
   }
-  .rsp-w50{width: 50%;}
+  .rsp-w50 {
+    width: 50%;
+  }
 }
