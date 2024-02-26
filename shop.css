@@ -342,7 +342,7 @@ img {
   text-decoration: line-through;
 }
 /* responsive design */
-@media (max-width <=590px) {
+@media screen and(max-width <=590px) {
   body {
     width: 100%;
     flex-wrap: wrap;

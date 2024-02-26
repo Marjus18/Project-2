@@ -359,7 +359,7 @@ img {
   background-color: black;
 }
 /* responsive design */
-@media (max-width <=600px) {
+@media screen and (max-width <=600px) {
   body {
     overflow-x: hidden;
     width: 100%;
