@@ -26,12 +26,12 @@
   }
 }
 body {
-  animation: transitionIn 1.5s 1s 0.7s backwards;
+  animation: transitionIn 2s 0.7s 0.4s backwards;
   animation-fill-mode: backwards;
-  animation: fade-down 1.5s 1s 0.5s backwards;
+  animation: fade-down 3s 1s 0.4s backwards;
 }
 .anim1 {
-  animation: loading 2.5s 2s 1.5s;
+  animation: loading 4s 2s 1.5s 1s 0.7s 0.2s;
   animation-fill-mode: backwards;
 }
 @font-face {
