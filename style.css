@@ -355,6 +355,9 @@ img {
 .black-bg {
   background-color: black;
 }
+.icon-margin {
+  margin: 0 0.5em;
+}
 /* responsive design */
 @media screen and (max-width <=600px) {
   body {
