@@ -3,6 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+@keyframes transitionIn {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  animation: transitionIn 2s 1s 0.7s 0.4s backwards;
+  animation-fill-mode: backwards;
+  animation: fade-down 3s 2s 1s 0.4s backwards;
+}
 @font-face {
   font-family: caviar-b;
   src: url(./Assets/fonts/CaviarDreams_Bold.ttf);
