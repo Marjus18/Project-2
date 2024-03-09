@@ -309,6 +309,18 @@ img {
 .absolute {
   position: absolute;
 }
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-1 {
+  z-index: 1;
+}
 .relative {
   position: relative;
 }
@@ -332,6 +344,9 @@ img {
 .h-100 {
   height: 100vh;
 }
+.h-100-p {
+  height: 100%;
+}
 .txt-center {
   text-align: center;
 }
@@ -354,6 +369,9 @@ img {
 }
 .black-bg {
   background-color: black;
+}
+.bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .icon-margin {
   margin: 0 0.5em;
