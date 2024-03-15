@@ -31,12 +31,32 @@
   font-family: roboto-light;
   src: url(./Assets/fonts/Roboto-Light.ttf);
 }
+@keyframes transitionIn {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    scale: 1;
+  }
+}
 .letter-sp {
   letter-spacing: 0.2rem;
 }
 /* utility classes */
 .red-b {
   /* border: 2px solid red; */
+  animation: fade-down 3s 2s 1s 0.4s backwards;
 }
 .green-b {
   /* border: 2px solid green; */
@@ -44,7 +64,11 @@
 .yellow-b {
   /* border: 2px solid yellow; */
 }
-
+body {
+  animation: fade-down 3s 2s 1s 0.4s backwards;
+  animation: transitionIn 2s 1s 0.7s 0.4s backwards;
+  animation-fill-mode: backwards;
+}
 .d-flex {
   display: flex;
 }
@@ -296,4 +320,3 @@ img {
 .focus-input:focus {
   padding: 1em;
 }
-
