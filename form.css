@@ -36,13 +36,13 @@
 }
 /* utility classes */
 .red-b {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .green-b {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .yellow-b {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 
 .d-flex {
@@ -52,7 +52,7 @@
   background-color: rgb(0, 0, 0);
 }
 .black-b {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .column {
   flex-direction: column;
@@ -252,7 +252,7 @@ img {
   text-decoration: none;
 }
 .lg-blue-b {
-  border: 2px solid rgb(31, 123, 146);
+  /* border: 2px solid rgb(31, 123, 146); */
 }
 .absolute {
   position: absolute;
