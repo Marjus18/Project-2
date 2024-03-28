@@ -91,7 +91,7 @@ body {
   display: flex;
 }
 .black-b {
-  /* border: 2px solid black; */
+  border: 2px solid black;
 }
 .column {
   flex-direction: column;
@@ -265,6 +265,9 @@ img {
 .h-50 {
   height: 50vh;
 }
+.product-height {
+  height: 15em;
+}
 .h-75 {
   height: 75vh;
 }
@@ -355,6 +358,12 @@ img {
 }
 .white-bg {
   background-color: white;
+}
+.p4 {
+  padding: 4em;
+}
+.fs-09 {
+  font-size: 0.9rem;
 }
 .hover-btn {
   left: 2em;
